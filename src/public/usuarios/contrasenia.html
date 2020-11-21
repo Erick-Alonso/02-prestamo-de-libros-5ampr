@@ -55,64 +55,29 @@
       <div class="card">
         <div class="card-header">
           <h5 class="mb-0">
-            <i class="fa fa-users"></i>&nbsp;
-            Administración de usuarios
+            <i class="fa fa-key"></i>&nbsp;
+            Cambio de contraseña
           </h5>
         </div>
         <div class="card-body">
-          <!-- Lista de usuarios -->
-          <table class="table">
-            <thead>
-              <tr>
-                <th>Nombre(s) / Apellido(s)</th>
-                <th>Editar</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Bidkar Aragon Cardenas</td>
-                <td>
-                  <a href="#">
-                    <i class="fa fa-trash icon"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-eye"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-gear"></i>
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>Fabian Corona Valenzuela</td>
-                <td>
-                  <a href="#">
-                    <i class="fa fa-trash icon"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-eye"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-gear"></i>
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td>Diego Paul Lopez Zambada</td>
-                <td>
-                  <a href="#">
-                    <i class="fa fa-trash icon"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-eye"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-gear"></i>
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <form>
+            <div class="form-group">
+              <label>Usuario</label>
+              <label class="form-control text-muted">admin</label>
+            </div>
+            <div class="form-group">
+              <label for="passwd1">Contraseña nueva</label>
+              <input class="form-control" type="password" name="passwd1" id="passwd1">
+            </div>
+            <div class="form-group">
+              <label for="passwd2">Vuelve a escribir la contraseña</label>
+              <input class="form-control" type="password" name="passwd2" id="passwd2">
+            </div>
+            <button class="btn btn-primary btn" type="submit">
+              <i class="fa fa-save"></i>&nbsp;
+              Cambiar contraseña
+            </button>
+          </form>
         </div>
       </div>
     </div>
@@ -125,4 +90,4 @@
   <script src="../js/bootstrap.js"></script>
 </body>
 
-</html> 
+</html>
