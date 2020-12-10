@@ -1,9 +1,28 @@
+:root {
+  --main-color: rgb(160,55,85);
+  --secondary-color: rgb(173,146,98);
+}
+
+.btn-main {
+  background-color: var(--main-color);
+  color: white;
+}
+
 .logo-navbar {
-  height: 40px;
-  filter: drop-shadow(1px 1px 1px gray);
+  height: 40px !important;
+  filter: drop-shadow(2px 2px 0 white)
 }
 
 .form-login {
   width: 400px;
   margin: auto;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 .75rem;
 }

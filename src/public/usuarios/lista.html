@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido - Préstamo de libros del CETis108</title>
+    <!-- Integración de Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Integración de FontAwesome -->
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+
+<body>
+  <!-- Inicio Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-md bg-dark navigation-clean mb-4">
+    <div class="container">
+      <a class="navbar-brand" href=".">
+        <img src="../images/logo-cetis108-gmail.png" alt="Logo CETis108" class="logo-navbar">
+      </a>
+      <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+        <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex" id="navcol-1">
+        <ul class="navbar-nav mr-auto">
+          <nav class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: white;" >Libros</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: white;" >Reportes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: white;" >Préstamos</a>
+          </li>
+        </nav>
+        </ul>
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a class="nav-link"  style="color: white;">
+              <i class="fa fa-user"></i>&nbsp;Iniciar sesión
+            </a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin Navbar -->
+
+  <!-- Inicio Formulario de registro -->
+  <div class="container">
+    <div>
+      <div class="card">
+        <h5 class="card-header">
+          <i class="fa fa-users"></i>&nbsp;
+          Usuarios
+        </h5>
+        <div class="card-body">
+          <table class="table table-hover">
+            <thead class="thead-dark">
+              <!-- Nombres+apellidos, correo electronico -->
+              <tr>
+                <th>
+                  Nombre
+                </th>
+                <th>
+                  Correo electrónico
+                </th>
+                <th>
+                  Acciones
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Erick Alonso Castro Carirllo</td>
+                <td>erickcc@cetis108.edu.mx</td>
+                <td>
+                  <a href="#" class="btn btn-danger btn-sm">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                  <a href="#" class="btn btn-warning btn-sm">
+                    <i class="fa fa-pencil"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Osiel Eduarlo Lopez Espinoza</td>
+                <td>Osieleduardo@cetis108.edu.mx</td>
+                <td>
+                  <a href="#" class="btn btn-danger btn-sm">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                  <a href="#" class="btn btn-warning btn-sm">
+                    <i class="fa fa-pencil"></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>Arturo Perez Garcia</td>
+                <td>ArturoPerez@cetis108.edu.mx</td>
+                <td>
+                  <a href="#" class="btn btn-danger btn-sm">
+                    <i class="fa fa-remove"></i>
+                  </a>
+                  <a href="#" class="btn btn-warning btn-sm">
+                    <i class="fa fa-pencil"></i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Formulario de registro -->
+
+  <!-- Inicio Javascript -->
+  <script src="../js/jquery-3.5.1.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.js"></script>
+  <!-- Fin Javascript -->
+</body>
+</html>

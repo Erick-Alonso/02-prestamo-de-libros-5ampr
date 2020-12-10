@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido - Préstamo de libros del CETis108</title>
+    <!-- Integración de Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Integración de FontAwesome -->
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+
+<body>
+  <!-- Inicio Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-md bg-dark navigation-clean mb-4">
+    <div class="container">
+      <a class="navbar-brand" href=".">
+        <img src="../images/logo-cetis108-gmail.png" alt="Logo CETis108" class="logo-navbar">
+      </a>
+      <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+        <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex" id="navcol-1">
+        <ul class="navbar-nav mr-auto">
+          <nav class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: white;" >Libros</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: white;" >Reportes</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" style="color: white;" >Préstamos</a>
+          </li>
+        </nav>
+        </ul>
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <a class="nav-link"  style="color: white;" >
+              <i class="fa fa-user"></i>&nbsp;
+              Iniciar sesión
+            </a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fin Navbar -->
+
+  <!-- Inicio Formulario de registro -->
+  <div class="container">
+    <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+      <div class="card">
+        <h5 class="card-header">
+          <i class="fa fa-key"></i>&nbsp;
+          Recuperación de contraseña
+        </h5>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="new_passwd1">Contraseña nueva</label>
+              <input class="form-control" type="password" name="new_passwd1" id="new_passwd1">
+            </div>
+            <div class="form-group">
+              <label for="new_passwd2">Vuelve a escribir la contraseña nueva</label>
+              <input class="form-control" type="password" name="new_passwd2" id="new_passwd2">
+            </div>
+            <button class="btn btn-main">
+              <i class="fa fa-save"></i>
+              Grabar nueva contraseña
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Formulario de registro -->
+
+  <!-- Inicio Javascript -->
+  <script src="../js/jquery-3.5.1.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.js"></script>
+  <!-- Fin Javascript -->
+</body>
+</html>

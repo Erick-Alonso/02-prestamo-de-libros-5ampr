@@ -26,20 +26,23 @@
       <div class="collapse navbar-collapse" id="miNavbar">
         <!-- Libros, Reportes, Acerca de, Login -->
         <ul class="navbar-nav mr-auto">
+          <nav class="nav">
           <li class="nav-item">
-            <a href="#" class="nav-link">Libros</a>
+            <a href="#" class="nav-link" style="color: white;" >Libros</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Reportes</a>
+            <a href="#" class="nav-link" style="color: white;" >Reportes</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Acerca de</a>
+            <a href="#" class="nav-link" style="color: white;" >Préstamos</a>
           </li>
+        </nav>
+        </ul>
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="" class="nav-link">
-              <i class="fa fa-sign-in"></i>&nbsp;
+            <a href="" class="nav-link" style="color: white;">
+              <i class="fa fa-user"></i>&nbsp;
               Iniciar sesión
             </a>
           </li>
@@ -55,7 +58,7 @@
       <div class="card">
         <div class="card-header">
           <h5 class="mb-0">
-            <i class="fa fa-sign-in"></i>&nbsp;
+            <i class="fa fa-sign-in" ></i>&nbsp;
             Inicio de sesión
           </h5>
         </div>
@@ -69,15 +72,17 @@
               <label for="passwd">Contraseña</label>
               <input class="form-control" type="password" name="passwd" id="passwd" required>
             </div>
-            <button class="btn btn-primary btn-block" type="submit">
-              <i class="fa fa-sign-in"></i>&nbsp;
+            <button class="btn btn-main" type="submit">
+              <i class="fa fa-check"></i>&nbsp;
               Iniciar sesión
             </button>
           </form>
         </div>
       </div>
-      <div class="card mt-3 p-3 text-center">
-          <small>¿Olvidaste la contraseña? Recuperala <a href="#">aquí</a></small>
+      <div class="card mt-4 py-3">
+        <a href="#" class="small text-center font-weight-bold">
+          ¿Olvidaste la contraseña?
+        </a>
       </div>
     </div>
   </div>
